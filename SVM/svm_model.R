@@ -1,6 +1,6 @@
 
-# function for building random forest model with 5 fold CV using caret package.
-# We trained the model at different nTree and mtry values and select the best model that results in low OOB error rate
+# function for building svm  model with 10 fold CV 
+# We train the model at different gamma and cost values and select the best model that results in high ROC-AUC
 
 svm_model <- function(formula ,data ){
   
